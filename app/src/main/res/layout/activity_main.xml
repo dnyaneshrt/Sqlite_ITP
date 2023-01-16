@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/et_eid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee id:"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/et_ename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name:"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/et_qual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Qualification"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/et_desig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Designation"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textSize="15sp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_insert"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="insert"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/btn_read"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="read"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="update"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="delete"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
